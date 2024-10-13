@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+nav ul li a.active {
+    background-color: #f7d1ff;
+    border-radius: 5px;
+    color: #fff;
+}
+  
+ section {
+    padding: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Honk", serif;
+    font-size: 90px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    color: #000000; /* Cor mais escura para melhor contraste */
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sobremim {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.coder-girl {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.p1 {
+    color: #000000;
+    text-align: justify;
+    width: 95%;
+    font-size: 20px;
+}
+
+
+#portfolio {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+p {
+    color: #000000;
+}
+
+
+#Habilidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+p {
+    color: #000000;
+}
+
+.icons-linguagens {
+    text-align: center;
+    width: 150px;
+}
+
+.chart-linguagens {
+    text-align: center;
+    width: 150px;
+}
+
+.hard-skills, .soft-skills {
+    flex: 2;
+    padding: 10px;
+}
+  
+.soft-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.soft-skills ul li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+/* Estilizando os ícones de redes sociais */
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+.social-links a {
+    color: #ff00f2;
+    font-size: 50px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a.instagram:hover {
+    color: #e1306c;
+}
+
+.social-links a.linkedin:hover {
+    color: #0077b5;
+}
+
+.social-links a.github:hover {
+    color: #333;
+}
+  
+.social-links i {
+    margin: 0 15px;
+}
+
+p {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  #Habilidades {
+    flex-direction: column;
+    text-align: center;
+  }
+}
