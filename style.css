@@ -111,13 +111,17 @@ p {
     margin-bottom: 40px;
 }
 
-.p3 {
+.hard-skills {
     color: #000000;
+}
+
+p2 {
+    font-size: 20px;
 }
 
 .icons-linguagens {
     text-align: center;
-    width: 150px;
+    width: 250px;
 }
 
 .chart-linguagens {
@@ -137,6 +141,7 @@ p {
   
 .soft-skills ul li {
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #certificados {
